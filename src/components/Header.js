@@ -1,11 +1,11 @@
 import React from 'react';
-
+import styles from './Header.module.css';
 
 const Header = () => {
 
   return (
     <>
-      <h1>Micki XO</h1>
+      <h1 className={styles.Micki}>Micki XO</h1>
       <div>
         <img src='../../public/insta.png' alt='Instagram Link' />
         <img src='../../public/spotify.png' alt='Spotify Link' />
