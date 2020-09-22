@@ -2,14 +2,17 @@ import React from 'react';
 import CurrentSong from './CurrentSong.js';
 import Header from './Header.js';
 import About from './About.js';
+import styles from './Home.module.css';
 
 const Home = () => {
 
   return (
     <>
-      <Header />
-      <CurrentSong />
-      <About />
+      <div className={styles.Home}>
+        <Header />
+        <CurrentSong />
+        <About />
+      </div>
     </>
   );
 };
