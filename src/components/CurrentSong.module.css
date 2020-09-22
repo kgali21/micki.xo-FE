@@ -2,6 +2,8 @@
 .MainNewSongCont {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .newButton {
@@ -11,6 +13,7 @@
 }
 
 .MickiImg{
-  width: 50%;
-  height: auto;
+  width: 50vw;
+  height: 75vh;
+  margin: 5vh 0 0 0;
 }

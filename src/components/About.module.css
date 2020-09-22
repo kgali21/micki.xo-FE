@@ -1,7 +1,16 @@
 .AboutList {
   display: flex;
+  border: red solid 1px;
+  width: 60vw;
+  line-height: 5vh;
 }
 
 .About {
   text-align: center;
+}
+
+.Michelle {
+  width: 25vw;
+  height: 60vh;
+  margin: 0 0 0 5em;
 }
