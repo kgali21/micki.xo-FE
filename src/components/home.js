@@ -11,7 +11,7 @@ const Home = () => {
       <div className={styles.Home}>
         <Header />
         <CurrentSong />
-        <About />
+        <About className={styles.About} />
       </div>
     </>
   );

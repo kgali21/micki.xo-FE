@@ -1,3 +1,11 @@
 .Micki {
   color: red;
+  font-size: 12vh;
+}
+
+.Links {
+  display: flex;
+  justify-content: space-between;
+  width: 50vh;
+  margin:  -1em 0 5vh 0;
 }
