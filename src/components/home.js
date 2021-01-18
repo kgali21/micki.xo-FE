@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 import CurrentSong from './CurrentSong.js';
 import Header from './Header.js';
 import About from './About.js';
@@ -10,7 +11,7 @@ const Home = () => {
       <div className={styles.Home}>
         <Header />
         <CurrentSong />
-        <About className={styles.About} />
+        <About className={styles.About} id={'About'}/>
       </div>
     </>
   );
