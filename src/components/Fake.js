@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './About.module.css';
 
-const About = () => {
+const Fake = () => {
   return (
-    <section id='About'>
-      <h1 className={styles.About}>ABOUT</h1>
+    <section id='Fake'>
+      <h1 className={styles.About}>Fake</h1>
       <div className={styles.AboutList}>
         <div className={styles.AboutText}>
           <h2>Michelle Gillman</h2>
@@ -16,4 +16,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Fake;
