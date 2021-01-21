@@ -5,6 +5,7 @@ import Header from './Header.js';
 import About from './About.js';
 import styles from './Home.module.css';
 import Fake from './Fake.js';
+import Subscribe from './Subscribe.js';
 
 const Home = () => {
   return (
@@ -14,11 +15,13 @@ const Home = () => {
           <Header />
           <Switch>
             <Route path='/#About' component={About} />
+            <Route path='/#Subscribe' component={Subscribe} />
             <Route path='/#Fake' component={Fake} />
           </Switch>
         </HashRouter>
         <CurrentSong />
         <About className={styles.About} id='About'/>
+        <Subscribe />
         <Fake />
       </div>
     </>
