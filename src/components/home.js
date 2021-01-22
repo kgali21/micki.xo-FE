@@ -6,6 +6,7 @@ import About from './About.js';
 import styles from './Home.module.css';
 import Fake from './Fake.js';
 import Subscribe from './Subscribe.js';
+import SocialMedia from './SocialMedia.js';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Route path='/#Fake' component={Fake} />
           </Switch>
         </HashRouter>
+        <SocialMedia />
         <CurrentSong />
         <About className={styles.About} id='About'/>
         <Subscribe />

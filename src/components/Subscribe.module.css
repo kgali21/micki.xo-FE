@@ -3,16 +3,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: red solid 1px;
+
   width: 50vw;
   height: 25vh;
   margin: 2em 0 0 0;
   color: white;
+  background-color: rgb(44, 44, 44);
 }
 
 .InnerForm {
   display: flex;
   justify-content: space-between;
   width: 30vw;
+  height: 5vh;
   border: red solid 1px;
+}
+
+.Subscribe {
+  width: 10vw;
+  border-radius: 0%;
+  color: white;
+  background-color: rgb(44, 44, 44);
+}
+
+.Subscribe:focus{
+  outline: none;
 }
