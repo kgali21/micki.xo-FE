@@ -9,6 +9,7 @@ const Header = () => {
       <h1 className={styles.Micki}>Micki XO</h1>
       <HashRouter>
         <Link to='/#About'>About Us</Link>
+        <Link to='/#Subscribe'>Subscribe</Link>
         <Link to='/#Fake'>Fake</Link>
       </HashRouter>
     </>
