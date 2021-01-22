@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Subscribe.module.css';
 
 const Subscribe = () => {
   //mailchimp subscribe logic
@@ -8,10 +9,13 @@ const Subscribe = () => {
   };
 
   return (
-    <section id='Subscribe'>
+    <section id='Subscribe' className={styles.Form}>
+      <h1>Subscribe for More</h1>
       <form onSubmit={handleSubmit}>
-        <input type='text' placeholder='Enter Email Address'/>
-        <button>Subscribe</button>
+        <div className={styles.InnerForm}> 
+          <input type='text' placeholder='Enter Email Address'/>
+          <button>Subscribe</button>
+        </div>
       </form>
     </section>
   );

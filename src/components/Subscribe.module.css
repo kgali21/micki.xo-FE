@@ -1,0 +1,18 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: red solid 1px;
+  width: 50vw;
+  height: 25vh;
+  margin: 2em 0 0 0;
+  color: white;
+}
+
+.InnerForm {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  border: red solid 1px;
+}
