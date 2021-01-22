@@ -1,19 +1,18 @@
 import React from 'react';
-
+import { HashLink as Link } from 'react-router-hash-link';
+import { HashRouter } from 'react-router-dom';
+import styles from './Header.module.css';
 
 const Header = () => {
-
-    return (
-        <>
-            <h1>Micki XO</h1>
-            <div>
-                <img src='../../public/insta.png' alt='Instagram Link' />
-                <img src='../../public/spotify.png' alt='Spotify Link' />
-                <img src='../../public/youtube.png' alt='Youtube Link' />
-                <img src='../../public/soundcloud.png' alt='Soundcloud Link' />
-            </div>
-        </>
-    )
-}
+  return (
+    <>
+      <h1 className={styles.Micki}>Micki XO</h1>
+      <HashRouter>
+        <Link to='/#About'>About Us</Link>
+        <Link to='/#Fake'>Fake</Link>
+      </HashRouter>
+    </>
+  );
+};
 
 export default Header;
