@@ -10,10 +10,10 @@ const Subscribe = () => {
 
   return (
     <section id='Subscribe' className={styles.Form}>
-      <h1>Connect with Micki XO</h1>
+      <h1> Follow Along!</h1>
       <form onSubmit={handleSubmit}>
         <div className={styles.InnerForm}> 
-          <input type='text' placeholder='Enter Email Address'/>
+          <input type='text' placeholder='Enter Email Address' className={styles.Text}/>
           <button className={styles.Subscribe}>Subscribe</button>
         </div>
       </form>

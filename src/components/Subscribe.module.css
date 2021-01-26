@@ -13,10 +13,16 @@
 
 .InnerForm {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   width: 30vw;
   height: 5vh;
   border: red solid 1px;
+}
+
+.Text {
+  text-align: center;
+  width: 19.5vw;
 }
 
 .Subscribe {

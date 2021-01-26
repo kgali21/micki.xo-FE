@@ -3,11 +3,28 @@ import styles from './SocialMedia.module.css';
 
 const SocialMedia = () => {
   return (
-    <section className={styles.Mediabar}>
-      <img src='soundcloud.png' alt='soundcloud' className={styles.SMedia} />
-      <img src='spotify.png' alt='spotify' className={styles.SMedia} />
-      <img src='youtube.png' alt='youtube' className={styles.SMedia} />
-    </section>
+    <>
+      <nav className={styles.Mediabar}>
+        <a href='https://soundcloud.com/mickixo'>
+          <img src='soundcloud.png' alt='Soundcloud' className={styles.SMedia} />
+        </a>
+        <a href='https://open.spotify.com/artist/2UqmpmQDScS5rz5WsQaFCA?si=XXRKZ1vLTnWKomoOpb1bSA'>
+          <img src='spotify.png' alt='Spotify' className={styles.SMedia} />
+        </a>
+        <a href='https://www.youtube.com/channel/UCkdfFemPzv6hJD_e9UqHpnA'>
+          <img src='youtube.png' alt='Youtube' className={styles.SMedia} />
+        </a>
+        <a href='https://www.instagram.com/mickixomusic/'>
+          <img src='instagram.png' alt='Instagram' className={styles.OtherSMedia} />
+        </a>
+        <a href='https://www.facebook.com/mickixo'>
+          <img src='facebook.png' alt='Facebook' className={styles.OtherSMedia} />
+        </a>
+        <a href='https://music.apple.com/us/artist/micki-xo/id1510659379'>
+          <img src='appleMusic.png' alt='Apple Music' className={styles.OtherSMedia} />
+        </a>
+      </nav>
+    </>
   );
 };
 

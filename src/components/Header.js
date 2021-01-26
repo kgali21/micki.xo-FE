@@ -6,7 +6,6 @@ import styles from './Header.module.css';
 const Header = () => {
   return (
     <>
-      {/* <h1 className={styles.Micki}>Micki XO</h1> */}
       <img className={styles.MickiImg} src='/websitelogo.png' alt='NEW_SONG' />
       <div className={styles.Links}>
         <HashRouter>
