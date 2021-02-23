@@ -19,8 +19,16 @@ const Subscribe = () => {
         email_address: email,
         status: 'subscribed'
       })
+    }).then(res => {
+      console.log(res, 'body');
+      if(res.status === 200) {
+        alert('Subscribed!');
+      } else if(res.status !== 400) {
+        alert('Subscribe Unsuccessful, Please try again later');
+      } else if(res.status === 400) {
+        alert('Email Already Subscribed');
+      }
     });
-    console.log(email, 'email ====');
   };
 
   const handleChange = (e) => {
