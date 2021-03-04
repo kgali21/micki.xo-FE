@@ -7,6 +7,7 @@ import styles from './Home.module.css';
 import Fake from './Fake.js';
 import Subscribe from './Subscribe.js';
 import SocialMedia from './SocialMedia.js';
+import ContactMe from './ContactMeForm.js';
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <About className={styles.About} id='About'/>
         <Subscribe />
         <Fake />
+        <ContactMe />
       </div>
     </>
   );

@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Subscribe.module.css';
 
-// const url = 'https://us7.api.mailchimp.com/3.0/lists/5a1cf723a0/members';
-
 const Subscribe = () => {
-  //mailchimp subscribe logic
   const [email, setEmail] = useState('');
 
   const handleSubmit = (e) => {
@@ -20,7 +17,6 @@ const Subscribe = () => {
         status: 'subscribed'
       })
     }).then(res => {
-      console.log(res, 'body');
       if(res.status === 200) {
         alert('Subscribed!');
       } else if(res.status !== 400) {
@@ -28,13 +24,12 @@ const Subscribe = () => {
       } else if(res.status === 400) {
         alert('Email Already Subscribed');
       }
-    });
+    }).catch(err => console.log(err));
   };
 
   const handleChange = (e) => {
     setEmail(e.target.value);
   };
-
 
   return (
     <section id='Subscribe' className={styles.Form}>
