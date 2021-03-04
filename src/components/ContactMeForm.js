@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import env from 'react-dotenv';
 
 const ContactMe = () => {
   const [userEmail, setUserEmail] = useState();
@@ -15,7 +16,7 @@ const ContactMe = () => {
       },
       body: JSON.stringify({
         from: userEmail,
-        to: 'Kgali21@gmail.com',
+        to: env.SENDER_EMAIL,
         subject: subject,
         html: emailBody
       })
