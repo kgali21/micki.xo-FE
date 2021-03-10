@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import env from 'react-dotenv';
+import styles from './ContactMeForm.module.css';
 
 const ContactMe = () => {
-  const [userEmail, setUserEmail] = useState();
-  const [subject, setSubject] = useState();
-  const [emailBody, setEmailBody] = useState(); 
+  const [userEmail, setUserEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [emailBody, setEmailBody] = useState(''); 
   
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -42,14 +43,14 @@ const ContactMe = () => {
   };
   
   return (
-    <section>
+    <section className={styles.Form}>
       <h1>Contact Me!</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <input type='text' placeholder='Enter Your Email Address' onChange={handleUserEmailChange} />
-          <input type='text' placeholder='Enter Email Subject' onChange={handleSubjectChange} />
-          <input type='text' placeholder='Enter Body of Email' onChange={handleEmailBodyChange} />
-          <button>Send Email!</button>
+      <form onSubmit={handleSubmit} >
+        <div className={styles.InnerForm}>
+          <input type='text' placeholder='Enter Your Email Address' onChange={handleUserEmailChange} className={styles.Text}/>
+          <input type='text' placeholder='Enter Email Subject' onChange={handleSubjectChange} className={styles.Text}/>
+          <input type='text' placeholder='Enter Body of Email' onChange={handleEmailBodyChange} className={styles.Text}/>
+          <button className={styles.Subscribe}>Send Email!</button>
         </div>
       </form>
     </section>
