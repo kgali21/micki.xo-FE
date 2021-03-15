@@ -3,7 +3,7 @@ import styles from './SocialMedia.module.css';
 
 const SocialMedia = () => {
   return (
-    <>
+    <div className={styles.SocialMedia}>
       <nav className={styles.Mediabar}>
         <a href='https://soundcloud.com/mickixo'>
           <img src='soundcloud.png' alt='Soundcloud' className={styles.SMedia} />
@@ -24,7 +24,7 @@ const SocialMedia = () => {
           <img src='appleMusic.png' alt='Apple Music' className={styles.OtherSMedia} />
         </a>
       </nav>
-    </>
+    </div>
   );
 };
 

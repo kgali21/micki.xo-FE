@@ -6,14 +6,20 @@ import styles from './Header.module.css';
 const Header = () => {
   return (
     <>
-      <div className={styles.Links}>
-        <img className={styles.MickiImg} src='/websitelogo.png' alt='NEW_SONG' />
-        <HashRouter>
-          <Link to='/#About'>About Us</Link>
-          <Link to='/#Subscribe'>Subscribe</Link>
-          <Link to='/#Fake'>Fake</Link>
-        </HashRouter>
+      <div className={styles.Header}>
+        <div className={styles.Links}>
+          <HashRouter>
+            <Link to='/#Home'>Home</Link>
+            <Link to='/#New'>New</Link>
+            <Link to='/#About'>About Us</Link>
+            <img className={styles.MickiImg} src='/websitelogo.png' alt='NEW_SONG' />
+            <Link to='/#Videos'>Subscribe</Link>
+            <Link to='/#Music'>Music</Link>
+            <Link to='/#Contact'>Contact</Link>
+          </HashRouter>
+        </div>
       </div>
+      <img src='mainmicki.png' alt='micki' className={styles.MainMicki} />
     </>
   );
 };

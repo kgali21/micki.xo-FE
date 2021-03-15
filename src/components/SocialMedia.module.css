@@ -3,7 +3,7 @@
     height: 2em;
 }
 
-.Mediabar{
+.Mediabar {
     display: flex;
     justify-content: space-evenly;
     width: 50vw;
