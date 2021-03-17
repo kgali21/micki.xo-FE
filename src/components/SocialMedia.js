@@ -1,4 +1,5 @@
 import React from 'react';
+import CurrentSong from './CurrentSong';
 import styles from './SocialMedia.module.css';
 
 const SocialMedia = () => {
@@ -24,6 +25,9 @@ const SocialMedia = () => {
           <img src='appleMusic.png' alt='Apple Music' className={styles.OtherSMedia} />
         </a>
       </nav>
+      <section className={styles.CurrentSong}>
+        <CurrentSong />
+      </section>
     </div>
   );
 };

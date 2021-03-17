@@ -1,12 +1,10 @@
 import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import CurrentSong from './CurrentSong.js';
 import Header from './Header.js';
 import About from './About.js';
 import styles from './Home.module.css';
 import Fake from './Music.js';
 import Subscribe from './Subscribe.js';
-import SocialMedia from './SocialMedia.js';
 import ContactMe from './ContactMeForm.js';
 
 const Home = () => {
@@ -26,9 +24,7 @@ const Home = () => {
             </Switch>
           </HashRouter>
         </div>
-        <SocialMedia />
-        <CurrentSong />
-        <About className={styles.About} id='About'/>
+        <About />
         <Subscribe />
         <Fake />
         <ContactMe />

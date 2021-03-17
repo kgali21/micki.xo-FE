@@ -9,7 +9,21 @@
 .newButton {
   width: 20vw;
   height: 7vh;
-  background-color: rgb(104, 104, 104);
+  background-color: rgba(255, 255, 255, 0);
+  outline-width: thick;
+  outline-style: solid;
+  outline-color: white;
+  color: white;
+}
+
+.newButton:hover{
+  background-color: rgba(255, 255, 255, 100);
+  color: black;
+}
+
+.newButton:focus {
+  background-color: rgba(255, 255, 255, 100);
+  color: black;
 }
 
 .MickiImg{

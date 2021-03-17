@@ -4,7 +4,7 @@ import styles from './CurrentSong.module.css';
 const CurrentSong = () => {
   return (
     <div className={styles.MainNewSongCont}>
-      <button className={styles.newButton}>Click to listen to NEW_SONG</button>
+      <button className={styles.newButton}>Click to listen to $NEW_SONG</button>
     </div>
   );
 };
