@@ -1,19 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .Form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   width: 50vw;
   height: 25vh;
-  margin: 2em 0 0 0;
+  margin: 0 0 0 0;
   color: white;
-  background-color: rgb(44, 44, 44);
 }
 
 .InnerForm {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
   width: 30vw;
   height: 5vh;
@@ -23,15 +26,24 @@
 .Text {
   text-align: center;
   width: 19.5vw;
+  margin: 0 8em 0 0;
 }
 
 .Subscribe {
-  width: 10vw;
-  border-radius: 0%;
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0);
+  outline-width: thick;
+  outline-style: solid;
+  outline-color: white;
   color: white;
-  background-color: rgb(44, 44, 44);
 }
 
-.Subscribe:focus{
-  outline: none;
+.Subscribe:hover{
+  background-color: rgba(255, 255, 255, 100);
+  color: black;
+}
+
+.newButton:focus {
+  background-color: rgba(255, 255, 255, 100);
+  color: black;
 }

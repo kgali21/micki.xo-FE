@@ -1,18 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .AboutList {
   display: flex;
+  flex-direction: column;
   border: red solid 1px;
-  width: 60vw;
+  width: 100%;
   line-height: 5vh;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .About {
   text-align: center;
   color: white;
+  border: red solid 1px;
+  width: 10%;
 }
 
-.Michelle {
-  width: 25vw;
-  height: 60vh;
-  margin: 0 0 0 5em;
+.AboutContainer {
+  background-image: url("/aboutMicki.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;
+  border: red solid 1px;
+}
+
+.AboutBio {
+  width: 50%;
+  text-align: center;
+  border: red 1px solid;
 }

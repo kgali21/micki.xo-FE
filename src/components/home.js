@@ -4,7 +4,6 @@ import Header from './Header.js';
 import About from './About.js';
 import styles from './Home.module.css';
 import Fake from './Music.js';
-import Subscribe from './Subscribe.js';
 import ContactMe from './ContactMeForm.js';
 import News from './News.js';
 
@@ -27,7 +26,6 @@ const Home = () => {
         </div>
         <News />
         <About />
-        <Subscribe />
         <Fake />
         <ContactMe />
       </div>

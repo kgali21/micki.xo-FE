@@ -26,8 +26,10 @@
   display: flex;
   flex-direction: column;
   background-image: url("/mainmichellepic.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
 }
 
 .CurrentSong {
