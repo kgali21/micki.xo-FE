@@ -28,7 +28,6 @@ const Header = () => {
     navbar.push('scrolled');
   }
 
-
   return (
     <div className={navbar.join(' ')}>
       <div className={styles.Header}>
@@ -38,7 +37,7 @@ const Header = () => {
             <Link to='/#New'>New</Link>
             <Link to='/#About'>About Us</Link>
             <img className={styles.MickiImg} src='/websitelogo.png' alt='Micki XO' />
-            <Link to='/#Videos'>Subscribe</Link>
+            <Link to='/#Video'>Video</Link>
             <Link to='/#Music'>Music</Link>
             <Link to='/#Contact'>Contact</Link>
           </HashRouter>

@@ -7,8 +7,8 @@ const News = () => {
   const title = '"Silence"';
 
   return (
-    <>
-      <h1 className={styles.ComponentTitle}>NEW</h1>  
+    <section id='New'>
+      <h1 className={styles.ComponentTitle}>News</h1>  
       <section className={styles.NewsContainer}>
         <img src='mickisilence.png' alt='Micki XO' className={styles.MickiImg}/>
         <div className={styles.BioContainer}>
@@ -19,7 +19,7 @@ const News = () => {
           <button className={styles.ListenButton}>LISTEN NOW!</button>
         </div>
       </section>
-    </>
+    </section>
   );
 };
 

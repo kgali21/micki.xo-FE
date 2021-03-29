@@ -6,6 +6,7 @@ import styles from './Home.module.css';
 import Fake from './Music.js';
 import ContactMe from './ContactMeForm.js';
 import News from './News.js';
+import NewVideo from './NewVideo.js';
 
 const Home = () => {
   return (
@@ -16,9 +17,9 @@ const Home = () => {
             <Header />
             <Switch>
               <Route path='/#Home' component={Home} />
-              <Route path='/#New' component={Fake} />
+              <Route path='/#New' component={News} />
               <Route path='/#About' component={About} />
-              <Route path='/#Videos' component={Fake} />
+              <Route path='/#Video' component={NewVideo} />
               <Route path='/#Music' component={Fake} />
               <Route path='/#Contact' component={Fake} />
             </Switch>
@@ -26,6 +27,7 @@ const Home = () => {
         </div>
         <News />
         <About />
+        <NewVideo />
         <Fake />
         <ContactMe />
       </div>
