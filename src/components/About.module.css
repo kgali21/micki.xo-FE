@@ -4,33 +4,42 @@
 }
 
 .AboutList {
-  display: flex;
-  flex-direction: column;
-  border: red solid 1px;
   width: 100%;
   line-height: 5vh;
   color: white;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  top: 8em;
+  right: 2em;
 }
 
 .About {
   text-align: center;
   color: white;
-  border: red solid 1px;
-  width: 10%;
+  width: 40%;
+  font-size: 5em;
+  margin: 0 0 .35em 0;
 }
 
 .AboutContainer {
   background-image: url("/aboutMicki.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 120vh;
-  border: red solid 1px;
+  height: 105vh;
+  padding: 2em;
 }
 
 .AboutBio {
-  width: 50%;
+  width: 65%;
   text-align: center;
-  border: red 1px solid;
+  margin: 0 0 -3em 0;
+  padding: 1em;
+  background-color: rgba(29, 29, 29);
+}
+
+.AboutText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
