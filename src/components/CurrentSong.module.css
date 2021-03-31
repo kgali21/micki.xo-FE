@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
 
 .MainNewSongCont {
   display: flex;
@@ -16,7 +21,7 @@
   color: white;
 }
 
-.newButton:hover{
+.newButton:hover {
   background-color: rgba(255, 255, 255, 100);
   color: black;
 }
@@ -26,7 +31,7 @@
   color: black;
 }
 
-.MickiImg{
+.MickiImg {
   width: 50vw;
   height: 75vh;
   margin: 5vh 0 0 0;

@@ -7,8 +7,8 @@ const News = () => {
   const title = '"Silence"';
 
   return (
-    <section id='New'>
-      <h1 className={styles.ComponentTitle}>News</h1>  
+    <section id='New' className={styles.News}>
+      <h1 className={styles.ComponentTitle}>NEWS</h1>  
       <section className={styles.NewsContainer}>
         <img src='mickisilence.png' alt='Micki XO' className={styles.MickiImg}/>
         <div className={styles.BioContainer}>

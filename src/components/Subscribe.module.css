@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 .Form {
@@ -31,16 +32,16 @@
   width: 8.5em;
   height: 1.35em;
   font-size: 2em;
-  margin: .12em 0 0 0;
+  margin: 0.12em 0 0 0;
   background-color: rgba(255, 255, 255, 0);
   outline-width: 50%;
   outline-style: solid;
   outline-color: white;
   color: white;
-  letter-spacing: .42em;
+  letter-spacing: 0.42em;
 }
 
-.Subscribe:hover{
+.Subscribe:hover {
   background-color: rgba(255, 255, 255, 100);
   color: black;
 }
