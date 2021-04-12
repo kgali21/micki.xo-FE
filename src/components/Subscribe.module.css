@@ -23,6 +23,10 @@
   height: 5vh;
 }
 
+.Connect {
+  font-family: korolev, sans-serif;
+}
+
 .Text {
   text-align: center;
   width: 16vw;
@@ -39,6 +43,7 @@
   outline-color: white;
   color: white;
   letter-spacing: 0.42em;
+  font-family: gotham-book, sans-serif;
 }
 
 .Subscribe:hover {

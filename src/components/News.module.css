@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   height: 60vh;
-  width: 100%;
+  width: 100vw;
   padding: 3em 0 0 3em;
 }
 
@@ -11,7 +11,8 @@
   margin: 0.75em 0 0 0;
   font-size: 5em;
   position: relative;
-  left: 6em;
+  left: 12em;
+  font-family: korolev, sans-serif;
 }
 
 .BioContainer {
@@ -22,12 +23,13 @@
 }
 
 .Bio {
-  height: 23vh;
+  height: 26vh;
   width: 25vw;
   text-align: center;
   padding: 0.5em;
   overflow: auto;
   font-size: 1.2em;
+  font-family: gotham-book, sans-serif;
 }
 
 .MickiImg {
@@ -42,6 +44,7 @@
   font-size: 5em;
   margin: 0 0 0 1em;
   align-self: center;
+  font-family: metro-normal, sans-serif;
 }
 
 .ListenButton {
@@ -58,6 +61,7 @@
   bottom: 5em;
   font-size: 1em;
   letter-spacing: 0.5em;
+  font-family: gotham-book, sans-serif;
 }
 
 .ListenButton:hover {

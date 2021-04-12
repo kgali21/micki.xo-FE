@@ -32,12 +32,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: metro-normal, sans-serif;
 }
 
 .VideoTitle {
   font-size: 5em;
   position: relative;
   top: 0.5em;
+  font-family: korolev, sans-serif;
 }
 
 .MickiButton {
@@ -51,6 +53,7 @@
   position: relative;
   font-size: 0.6em;
   letter-spacing: 0.5em;
+  font-family: gotham-book, sans-serif;
 }
 
 .MickiButton:hover {

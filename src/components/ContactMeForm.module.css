@@ -45,6 +45,7 @@
   color: white;
   position: relative;
   right: 14.75em;
+  font-family: gotham-book, sans-serif;
 }
 
 .Subscribe:hover {
@@ -96,6 +97,7 @@
   font-size: 5em;
   position: relative;
   top: 0.4em;
-  right: 7.5em;
+  right: 7em;
   letter-spacing: 0.2em;
+  font-family: korolev, sans-serif;
 }
