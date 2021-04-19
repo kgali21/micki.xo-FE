@@ -1,20 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styles from './NewVideo.module.css';
 import ReactPlayer from 'react-player';
-import env from 'react-dotenv';
-import { youtubeFetch } from '../data/services';
 
 const NewVideo = () => {
-  const [embededUrl, setEmbededUrl] = useState('');
-
-  useEffect(() => {
-    youtubeFetch(env.YOUTUBE_API)
-      .then(data => {
-        setEmbededUrl(data.items[0].player.embedHtml);
-      })
-      .then(stringData => JSON.parse(stringData));
-  });
-
   const videoMsg = '"WHY DID I STAY?"';
 
   return (

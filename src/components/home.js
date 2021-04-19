@@ -7,6 +7,7 @@ import Fake from './Music.js';
 import ContactMe from './ContactMeForm.js';
 import News from './News.js';
 import NewVideo from './NewVideo.js';
+import SpotifyDeck from '../containers/SpotifyList.js';
 
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
         <News />
         <About />
         <NewVideo />
-        <Fake />
+        <SpotifyDeck />
         <ContactMe />
       </div>
     </>
