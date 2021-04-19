@@ -193,7 +193,7 @@ window.env = {
   "npm_package_devDependencies_eslint_plugin_babel": "^5.3.1",
   "npm_package_devDependencies_react_player": "^2.9.0",
   "npm_package_eslintConfig_extends": "react-app",
-  "npm_package_gitHead": "ba1431f335259400b01a33ab58c821d23645cd42",
+  "npm_package_gitHead": "3b67db95e1c2e677e0b00ee679a8e641c059e1a5",
   "npm_package_name": "micki-xo",
   "npm_package_private": "true",
   "npm_package_readmeFilename": "README.md",

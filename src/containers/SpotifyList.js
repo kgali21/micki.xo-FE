@@ -26,7 +26,7 @@ const SpotifyDeck = () => {
 
   return (
     <>
-      <h1 className={styles.MusicTitle}>MUSIC</h1>
+      <h1 id='Music' className={styles.MusicTitle}>MUSIC</h1>
       <ul className={styles.SpotifyContainer}>
         <li className={styles.ListItem}>
           {spotifyElements}

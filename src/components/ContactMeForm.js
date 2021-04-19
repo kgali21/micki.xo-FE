@@ -57,7 +57,7 @@ const ContactMe = () => {
   
   return (
     <div className={styles.ContactMeComponent}>
-      <h1 className={styles.ContactTitle}>CONTACT</h1>
+      <h1 id='Contact' className={styles.ContactTitle}>CONTACT</h1>
       <section className={styles.Form}>
         <form onSubmit={handleSubmit} >
           <div className={styles.InnerForm}>

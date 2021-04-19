@@ -7,7 +7,7 @@ const Music = ({ uri }) => {
   
 
   return (
-    <section id='Music' className={styles.AboutContainer}>
+    <section className={styles.AboutContainer}>
       <SpotifyPlayer
         uri={uri}
       />

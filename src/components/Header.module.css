@@ -1,14 +1,14 @@
 .Links {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   z-index: 1;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(29, 29, 29, 100),
-    rgba(255, 255, 255, 0) 100%
-  );
   background-repeat: none;
+  font-size: 2em;
+  color: white;
+  text-align: start;
+  font-family: gotham-book, sans-serif;
 }
 
 .MickiImg {
@@ -29,10 +29,24 @@
   flex-direction: column;
   position: fixed;
   width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(29, 29, 29, 100),
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 5;
 }
 
 .scrolled {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+a:active,
+a:visited,
+a:link,
+a:hover {
+  color: white;
+  text-decoration: none;
 }

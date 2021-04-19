@@ -33,13 +33,13 @@ const Header = () => {
       <div className={styles.Header}>
         <div className={styles.Links}>
           <HashRouter>
-            <Link to='/#Home'>Home</Link>
-            <Link to='/#New'>New</Link>
-            <Link to='/#About'>About Us</Link>
+            <Link to='/#Home'>HOME</Link>
+            <Link to='/#New'>NEW</Link>
+            <Link to='/#About'>ABOUT US</Link>
             <img className={styles.MickiImg} src='/websitelogo.png' alt='Micki XO' />
-            <Link to='/#Video'>Video</Link>
-            <Link to='/#Music'>Music</Link>
-            <Link to='/#Contact'>Contact</Link>
+            <Link to='/#Video'>VIDEO</Link>
+            <Link to='/#Music'>MUSIC</Link>
+            <Link to='/#Contact'>CONTACT</Link>
           </HashRouter>
         </div>
       </div>
