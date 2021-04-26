@@ -36,3 +36,18 @@
   height: 75vh;
   margin: 5vh 0 0 0;
 }
+
+@media (max-width: 600px) {
+
+
+  .newButton {
+    width: 40vw;
+    height: 3vh;
+    background-color: rgba(255, 255, 255, 0);
+    outline-width: thick;
+    outline-style: solid;
+    outline-color: white;
+    color: white;
+  }
+
+}

@@ -16,9 +16,7 @@ const Header = () => {
       setScrolled(false);
     }
   };
-
-  console.log('scrolled', scrolled);
-
+  
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
   });

@@ -39,7 +39,6 @@
   position: absolute;
   top: 37em;
   left: 27.5em;
-  border: red 1px solid;
 }
 
 .Twitter {
@@ -47,4 +46,52 @@
   height: 4em;
   filter: grayscale(100%);
   margin: 0 1.5em 0 0;
+}
+
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  .SMedia {
+    width: auto;
+    height: 1em;
+    margin: 0 1.5em 0 0;
+  }
+
+  .Mediabar {
+    display: flex;
+    width: 50vw;
+    position: relative;
+    top: -12em;
+    right: 15em;
+  }
+
+  .OtherSMedia {
+    width: auto;
+    height: 1em;
+    filter: invert(1);
+    margin: 0 1.5em 0 0;
+  }
+
+  .CurrentSong {
+    position: absolute;
+    top: 10em;
+    left: 10em;
+  }
+
+  .Twitter {
+    width: auto;
+    height: 1em;
+    filter: grayscale(100%);
+    margin: 0 1.5em 0 0;
+  }
+
+  .CurrentSong {
+    position: absolute;
+    top: 10em;
+    left: 5em;
+  }
 }
