@@ -89,7 +89,8 @@ a:hover {
       rgba(255, 255, 255, 0) 100%
     );
     z-index: 5;
-    width: 63%;
+    min-width: 47%;
+    max-width: 47%;
   }
 
   .scrolled {
