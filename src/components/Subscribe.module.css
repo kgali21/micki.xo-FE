@@ -11,7 +11,6 @@
   align-items: center;
   width: 50vw;
   height: 25vh;
-  margin: 0 0 0 0;
   color: white;
 }
 
@@ -54,4 +53,35 @@
 .newButton:focus {
   background-color: rgba(255, 255, 255, 100);
   color: black;
+}
+
+@media (max-width: 600px) {
+  .Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 25vh;
+    color: white;
+  }
+
+  .InnerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    height: 5vh;
+  }
+
+  .Text {
+    width: 72vw;
+    margin: 1em;
+  }
+
+  .Connect {
+    position: relative;
+    bottom: 2em;
+  }
 }
