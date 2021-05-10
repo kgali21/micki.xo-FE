@@ -22,3 +22,14 @@
   top: .5em;
   font-family: korolev, sans-serif;
 }
+
+@media (max-width: 600px) {
+  .SpotifyContainer {
+    display: flex;
+    flex-direction: column;
+    border: red solid 1px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
