@@ -27,9 +27,17 @@
   .SpotifyContainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     border: red solid 1px;
+    height: 100%;
+  }
+
+  .ListItem {
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    position: relative;
+    right: 1.75em;
   }
 }

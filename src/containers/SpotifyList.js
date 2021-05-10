@@ -19,9 +19,6 @@ const SpotifyDeck = () => {
       });
   }, []);
 
-  console.log(spotifyUriArray, 'data array');
-  
-
   const spotifyElements = spotifyUriArray.map(data => <SpotifyCard uri={data.uri} key={data.uri} />);
 
   return (
