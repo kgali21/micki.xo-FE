@@ -9,7 +9,7 @@ const NewVideo = () => {
     <section className={styles.VideoComponent}>
       <h1 className={styles.VideoTitle}>NEW VIDEO</h1>
       <section id='Video' className={styles.VideoContainer}>
-        <ReactPlayer url='https://www.youtube.com/watch?v=sKGn3yj8GhE' controls={true} width='560px' height='340px' />
+        <ReactPlayer url='https://www.youtube.com/watch?v=sKGn3yj8GhE' controls={true} width='100%' height='50%' />
         <div className={styles.TextContainer}>
           <h1>{videoMsg}</h1>
           <h2>OFFICIAL LYRIC VIDEO</h2>
