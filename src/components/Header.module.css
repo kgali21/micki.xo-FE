@@ -55,15 +55,12 @@ a:hover {
 @media (max-width: 600px) {
   .Links {
     display: flex;
+    width: 100em;
     justify-content: space-evenly;
-    align-items: center;
-    max-width: 100%;
     z-index: 1;
-    background-repeat: none;
-    font-size: 0.5em;
     color: white;
-    text-align: start;
     font-family: gotham-book, sans-serif;
+    font-size: 50%;
   }
 
   .MickiImg {
@@ -89,8 +86,6 @@ a:hover {
       rgba(255, 255, 255, 0) 100%
     );
     z-index: 5;
-    min-width: 47%;
-    max-width: 47%;
   }
 
   .scrolled {
