@@ -101,3 +101,90 @@
   letter-spacing: 0.2em;
   font-family: korolev, sans-serif;
 }
+
+@media (max-width: 600px) {
+  .Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+    color: white;
+    background-color: rgba(44, 44, 44, 50%);
+    position: relative;
+    top: 2em;
+    right: .15em;
+  }
+
+  .InnerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    right: .5em;
+  }
+
+  .Subscribe {
+    width: 20vw;
+    height: 3vh;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    right: 0em;
+    font-family: gotham-book, sans-serif;
+  }
+  
+  .Subscribe:hover {
+    background-color: rgba(255, 255, 255, 100);
+    color: black;
+  }
+  
+  .Subscribe:focus {
+    background-color: rgba(255, 255, 255, 100);
+    color: black;
+  }
+
+  .ContactMeComponent {
+    background-image: none;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5em;
+  }
+
+  .Text {
+    text-align: center;
+    width: 20em;
+    height: 3em;
+    position: relative;
+  }
+
+  .NameField {
+    width: 9em;
+    height: 3em;
+    position: relative;
+    left: 2.35em;
+  }
+
+  .TextArea {
+    text-align: center;
+    width: 20em;
+    height: 15em;
+    position: relative;
+    resize: none;
+  }
+
+  .ContactTitle {
+    color: white;
+    width: 80%;
+    font-size: 4em;
+    position: relative;
+    bottom: 2em;
+    right: .05em;
+    letter-spacing: 0.2em;
+    font-family: korolev, sans-serif;
+  }
+}
