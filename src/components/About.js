@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './About.module.css';
 import Subscribe from './Subscribe';
 
-const About = () => {
+const About = () => {  
   return (
     <section id='About' className={styles.AboutContainer} >
       <div className={styles.AboutList}>

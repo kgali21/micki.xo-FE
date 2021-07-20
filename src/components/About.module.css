@@ -11,6 +11,8 @@
   text-align: center;
   color: white;
   width: 40%;
+  min-width: 40%;
+  max-width: 40%;
   font-size: 5em;
   margin: 0 0 0.35em 0;
   font-family: korolev, sans-serif;
@@ -25,12 +27,15 @@
 }
 
 .AboutBio {
-  width: 65%;
+  width: 100%;
   text-align: center;
   margin: 0 0 -3em 0;
   padding: 1em;
   background-color: rgba(29, 29, 29);
   font-family: gotham-book, sans-serif;
+  position: relative;
+  left: 2em;
+  border: solid 1px red;
 }
 
 .AboutText {
