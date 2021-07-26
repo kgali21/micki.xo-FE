@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-self: center;
   align-items: center;
+  margin: 0 0 2em 0;
 }
 
 .ListItem {
@@ -19,7 +20,6 @@
   color: white;
   font-size: 5em;
   position: relative;
-  top: .5em;
   font-family: korolev, sans-serif;
 }
 

@@ -53,8 +53,8 @@
 }
 
 .ListenButton {
-  width: 20vw;
-  max-width: 20vw;
+  width: 25vw;
+  max-width: 25vw;
   height: 3vh;
   max-height: 10vh;
   margin: 6em 0 0 6.5em;
@@ -69,6 +69,7 @@
   font-size: 1em;
   letter-spacing: 0.5em;
   font-family: gotham-book, sans-serif;
+  border: red 1px solid;
 }
 
 .ListenButton:hover {

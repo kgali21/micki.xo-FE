@@ -9,13 +9,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 29vw;
+  width: 40vw;
   height: 50vh;
   color: white;
   background-color: rgba(44, 44, 44, 50%);
   position: relative;
   top: 4em;
-  right: 35em;
+  right: 20em;
 }
 
 .InnerForm {
@@ -60,10 +60,9 @@
 
 .NameContainer {
   display: flex;
-  width: 100%;
+  width: 40vw;
   justify-content: space-evenly;
   position: relative;
-  right: 1.15em;
 }
 
 .NameField {
@@ -97,7 +96,7 @@
   font-size: 5em;
   position: relative;
   top: 0.4em;
-  right: 7em;
+  right: 4em;
   letter-spacing: 0.2em;
   font-family: korolev, sans-serif;
 }

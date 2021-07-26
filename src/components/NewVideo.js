@@ -14,8 +14,8 @@ const NewVideo = () => {
           <ReactPlayer url='https://www.youtube.com/watch?v=sKGn3yj8GhE' controls={true} width='100%' height='100%' />
         </div>
         <div className={styles.TextContainer}>
-          <h1>{videoMsg}</h1>
-          <h2>OFFICIAL LYRIC VIDEO</h2>
+          <h1>OFFICIAL LYRIC VIDEO</h1>
+          <h2>{videoMsg}</h2>
           <button className={styles.MickiButton}>MICKI XO YOUTUBE PAGE</button>
         </div>
       </section>
